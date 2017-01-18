@@ -1,0 +1,147 @@
+*  {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  font-family: "sans-serif";
+}
+
+.pictures {
+  width: 100%;
+  display: block;
+  font-size: 0;
+}
+
+#app-container img {
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+#app-container {
+  text-align: center;
+
+}
+#app-container p {
+  text-align: center;
+  color: #grey;
+  font-size: 36px;
+  padding: 0;
+}
+
+#app-container a {
+  text-decoration: none;
+  color: slategrey;
+}
+
+#app-container span {
+  border-left: 1px slategrey solid;
+  padding: 12px;
+}
+
+#app-container h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.up-icon  p {
+  font-size: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
+  .search {
+  font-size: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.search p {
+  text-align: right;
+  color: grey;
+  padding-right: 20px;
+}
+.pictures img {
+  width: 50%;
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .pictures img {
+    width: 33%;
+    display: inline-block;
+  }
+
+  #app-container {
+    width: 800px;
+  }
+
+  #app-container img {
+    max-width: 200px;
+    margin: 10px 0 0 0;
+  }
+  #app-container {
+    display: inline-block;
+    margin: 0;
+  }
+
+  #app-container h4 {
+    color: #grey;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0;
+    float: right;
+    border-left: 1px grey solid;
+    padding-left: 20px;
+    padding-bottom: 
+  }
+
+  #app-container h5 {
+    text-decoration: none;
+    color: slategrey;
+    display: inline-block;
+    margin: 0;
+    font-size: 15px;
+    padding-left: 680px;
+  }
+
+  .search{
+    float: left;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pictures img {
+    max-width: 25%;
+    display: inline-block;
+  }
+
+  #app-container img {
+    max-width: 200px;
+    margin: 10px 0 0;
+  }
+  #app-container p {
+    text-align: right;
+    color: #grey;
+    font-size: 36px;
+    padding: 0;
+  }
+
+  #app-container a {
+    text-decoration: none;
+    color: slategrey;
+  }
+
+}
